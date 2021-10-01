@@ -4,7 +4,10 @@ import {APP_BASE_HREF} from "@angular/common";
 
 @Component({
   selector: 'app-comp-from-first-module',
-  template: '<p>Component from first module</p>',
+  template: `
+    <p>Component from first module</p>
+    <mfe1-web-component></mfe1-web-component>
+  `,
 })
 export class FirstComponent {
 }
